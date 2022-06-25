@@ -1,0 +1,27 @@
+@import-normalize;
+@import "recipes.css";
+@import "recipe-edit.css";
+@import "font.css";
+@import "button.css";
+@import "recipe.css";
+@import "ingredient-list.css";
+
+*,
+*::before,
+*::after {
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 25px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
